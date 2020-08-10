@@ -1,2 +1,2 @@
 # ArduMusic
- Projeto de site para produto fictício feito com arduino
+ Projeto de site para produto fictício 
