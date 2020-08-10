@@ -38,8 +38,10 @@
     font-size: 3.1rem;
 }
 
-.logo-container img{
+.logo-container h1{
+    font: 700 8rem Archivo;
     height: 90%;
+    color: var(--color-box-base);
 }
 
 .art{
