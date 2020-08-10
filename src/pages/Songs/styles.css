@@ -1,0 +1,65 @@
+
+/* Header */
+.page-songs{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primary);
+    height: 220px;
+}
+
+.page-songs .top-bar-container{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-text-in-primary);
+    padding: 1.6rem 0;
+}
+
+.page-songs .top-bar-container a img{
+    height: 3rem;
+}
+
+.page-songs .top-bar-container a{
+    color: var(--color-text-in-primary);
+    text-decoration: none;
+    margin-left: 2.3rem;
+    font: 700 Poppins;
+    height: 3.5rem;
+    transition: opacity 0.2s;
+}
+
+.page-songs .top-bar-container a:hover{
+    opacity: 0.6;    
+}
+
+.page-songs .songs-content{
+    width: 90%;
+    position: relative;
+    flex: 1;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.page-songs .songs-content strong{
+    font: 700 3.6rem Archivo;
+    line-height: 4.2rem;
+    color: var(--color-title-in-primary);
+
+    max-width: 350px;
+
+    margin-top: 4rem;
+
+}
+
+.page-songs .songs-content h4{
+    font-size: 1.8rem;
+    color: var(--color-text-in-primary);
+}
