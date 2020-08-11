@@ -107,6 +107,31 @@
     border-radius: 50%;
 }
 
+
+.mount-item p span{
+    margin-left: 6.5rem;
+}
+
+.mount-item .image{
+    width: 60%;
+    margin: 2rem 16rem;
+    border-radius: 0.5rem;
+}
+
+.mount-item ul li{
+    margin-left: 12rem;   
+}
+
+.mount-item ul li a{
+    text-decoration: none;
+    font: 400 1.7rem Poppins;
+    color: black;
+}
+
+.mount-item ul li a:hover{
+    color: var( --color-primary);
+}
+
 .mount-item header div{
     margin-left: 2.4rem;
 }
